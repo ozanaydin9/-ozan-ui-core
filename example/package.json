@@ -1,5 +1,5 @@
 {
-  "name": "@ozan-ui/core-example",
+  "name": "@ozan-ui/core",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -10,10 +10,12 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "@ozan-ui/core": "link:..",
+    "bootstrap": "^4.5.2",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
-    "react-scripts": "link:../node_modules/react-scripts",
-    "@ozan-ui/core": "link:.."
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "link:../node_modules/react-scripts"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
