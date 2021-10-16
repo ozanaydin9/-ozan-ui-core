@@ -4,7 +4,10 @@
   "description": "UI library for React",
   "author": "ozanaydin9",
   "license": "MIT",
-  "repository": "ozanaydin9/@ozan-ui/core",
+  "repository": {
+    "type": "git",
+    "url": "ozanaydin9/@ozan-ui/core"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -52,5 +55,8 @@
   ],
   "dependencies": {
     "styled-components": "^5.1.1"
+  },
+  "directories": {
+    "example": "example"
   }
 }

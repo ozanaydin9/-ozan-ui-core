@@ -11,16 +11,16 @@ npm install --save @ozan-ui/core
 ```
 
 ## Usage
-
+(more example coming soon..)
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from '@ozan-ui/core'
+import { Input } from '@ozan-ui/core'
 import '@ozan-ui/core/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return  <Input/>
   }
 }
 ```
