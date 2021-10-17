@@ -10,6 +10,10 @@
 npm install --save @ozan-ui/core
 ```
 
+## Preview
+https://ozan-ui.vercel.app/
+
+
 ## Usage
 (more example coming soon..)
 ```jsx
@@ -24,6 +28,9 @@ class Example extends Component {
   }
 }
 ```
+
+## Contributing
+The project is very fresh and open to development. Feel free to contribute! You may raise an issue, provide a pull request.
 
 ## License
 
